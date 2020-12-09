@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlActivated">#534666</item>
+        <item name="colorControlNormal">#cd7672</item>
+
+
+    </style>
+
+    <style name="ProgressBarTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorControlActivated">#d76d77</item>
+        <item name="colorAccent">#d76d77</item>
+    </style>
+
+    <integer-array name="frag_home_ids">
+        <item>@drawable/c_gradient_1</item>
+        <item>@drawable/c_gradient_2</item>
+        <item>@drawable/c_gradient_3</item>
+        <item>@drawable/c_gradient_4</item>
+        <item>@drawable/c_gradient_5</item>
+        <item>@drawable/c_gradient_6</item>
+
+    </integer-array>
+
+</resources>

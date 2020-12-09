@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    tools:context=".StudentActivity">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/fragment_container_stu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        android:elevation="12dp"
+        android:layout_marginBottom="50dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+        <com.gauravk.bubblenavigation.BubbleNavigationConstraintView
+            android:id="@+id/bottom_navigation_view_linear_stu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:padding="12dp"
+            android:layout_margin="10dp"
+            app:bnc_mode="spread"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+
+            <com.gauravk.bubblenavigation.BubbleToggleView
+                android:id="@+id/procc_lec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:bt_active="true"
+                app:bt_colorActive="#BA68C8"
+                app:bt_colorInactive="#BA68C8"
+                app:bt_icon="@drawable/processing_lec"
+                app:bt_shape="@drawable/oval_for_lec"
+                app:bt_title="Processing Lectures"
+                app:bt_titlePadding="10dp"
+                app:bt_titleSize="13dp" />
+
+
+            <com.gauravk.bubblenavigation.BubbleToggleView
+                android:id="@+id/past_lec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:bt_active="true"
+                app:bt_colorActive="#4FC3F7"
+                app:bt_colorInactive="#4FC3F7"
+                app:bt_icon="@drawable/passed_lec"
+                app:bt_shape="@drawable/oval_for_stu"
+                app:bt_title="Passed Lectures"
+                app:bt_titlePadding="10dp"
+                app:bt_titleSize="13dp" />
+
+        </com.gauravk.bubblenavigation.BubbleNavigationConstraintView>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "309241203468",
+    "firebase_url": "https://fir-6b98c.firebaseio.com",
+    "project_id": "fir-6b98c",
+    "storage_bucket": "fir-6b98c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309241203468:android:abfe4e23f4962c52",
+        "android_client_info": {
+          "package_name": "com.eslam.firebaseproject_course"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "309241203468-5tttncs9sv0t9v6loc948qc9arsqapu4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZRKa3EBT1P_5paitG1-pK2NQ5xGEoNNA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "309241203468-5tttncs9sv0t9v6loc948qc9arsqapu4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309241203468:android:90856aeef33b174ba21729",
+        "android_client_info": {
+          "package_name": "com.eslam.qrcodeattendancesystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "309241203468-1os2togp26nn9d01vn8v5fdaeqm5t03g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.eslam.qrcodeattendancesystem",
+            "certificate_hash": "10968b227ca7852ae34cd981e14eb1c301f65f36"
+          }
+        },
+        {
+          "client_id": "309241203468-5tttncs9sv0t9v6loc948qc9arsqapu4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZRKa3EBT1P_5paitG1-pK2NQ5xGEoNNA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "309241203468-5tttncs9sv0t9v6loc948qc9arsqapu4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
